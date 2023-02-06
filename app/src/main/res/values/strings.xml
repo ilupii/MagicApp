@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">YuGiApp</string>
+    <string name="txt_no_network_connection_error">Parece que no tienes conexión a internet :(</string>
+    <string name="txt_generic_error">Ha ocurido un error inesperado, intentalo más tarde :(</string>
+    <string name="txt_titulo_card_layout">Titulo</string>
+    <string name="txt_titulo_tipo_card_layout">Tipo</string>
+    <string name="txt_titulo_ataque_card_layout">Ataque</string>
+    <string name="txt_titulo_defensa_card_layout">Defensa</string>
+    <string name="txt_titulo_detalle_nombre">Nombre</string>
+    <string name="txt_nombre_detalle">NombreDetalle</string>
+    <string name="txt_titulo_detalle_tipo">Tipo</string>
+    <string name="txt_tipo_detalle">TipoDetalle</string>
+    <string name="txt_titulo_detalle_ataque">Ataque</string>
+    <string name="txt_titulo_detalle_defensa">Defensa</string>
+    <string name="txt_titulo_detalle_descripcion">Descripción</string>
+    <string name="txt_ataque_detalle">AtaqueDetalle</string>
+    <string name="txt_defensa_detalle">DefensaDetalle</string>
+    <string name="txt_descripcion_detalle">DescripciónDetalle</string>
+    <string name="txt_titulo_detalle_nivel">Nivel</string>
+    <string name="txt_nivel_detalle">NivelDetalle</string>
+    <string name="txt_error_detalle">ErrorText</string>
+    <string name="txt_nombre_main">Jose Miguel Lupiañez Galafat</string>
+    <string name="txt_correo_main">josemlglg@gmail.com</string>
+    <string name="txt_fecha_main">06/02/2023</string>
+    <string name="txt_btn_continuar_main">Continuar</string>
+    <string name="txt_titulo_master">YuGiOh! Cards</string>
+    <string name="txt_subtitulo_master">Banlist TCG</string>
+    <string name="txt_error_master">ErrorText</string>
+    <string name="txt_nive_detalle_format">%s ✪</string>
+    <string name="txt_valor_ataque_card_layout">%s</string>
+    <string name="txt_valor_defensa_card_layout">%s</string>
+</resources>

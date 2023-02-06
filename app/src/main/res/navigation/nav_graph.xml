@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.lupi.magicapp.ui.main.MainFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_masterFragment"
+            app:destination="@id/masterFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpTo="@id/mainFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/masterFragment"
+        android:name="com.lupi.magicapp.ui.master.MasterFragment"
+        android:label="Maestro"
+        tools:layout="@layout/fragment_master" >
+        <action
+            android:id="@+id/action_masterFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.lupi.magicapp.ui.detail.DetailFragment"
+        android:label="Detalle"
+        tools:layout="@layout/fragment_detail" >
+        <argument
+            android:name="cardID"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+
+</navigation>
